@@ -1,0 +1,137 @@
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.todo {
+	height: 100vh;
+	width: 100%;
+	background: royalblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todo__block {
+	max-width: 700px;
+	width: 100%;
+	background: white;
+	padding: 20px 40px;
+	border-radius: 15px;
+	min-height: 400px;
+}
+
+.todo__title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.todo__form {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+}
+
+.todo__field {
+	width: 100%;
+	max-width: 300px;
+	height: 40px;
+	padding: 0 15px;
+	border: 1px solid royalblue;
+}
+
+.todo__add {
+	padding: 0 20px;
+	height: 40px;
+	background: royalblue;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.todo__list {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	border-top: 1px solid black;
+}
+
+.todo__item {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 5px;
+	background: royalblue;
+	width: 100%;
+	border-bottom: 1px solid black;
+	color: white;
+}
+
+.todo__item-del {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	background-color: azure;
+	font-size: 35px;
+	line-height: 28px;
+	color: black;
+	text-align: center;
+	font-weight: 700;
+}
+
+.todo__error {
+	display: none;
+	left: 50%;
+	transform: translateX(-50%);
+	color: red;
+	position: absolute;
+	bottom: -20px;
+}
+
+.todo__item-right, .todo__item-left{
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+.todo__item-imp {
+	fill: yellow;
+}
+
+
+.todo__bot {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+}
+
+/* .todo__del-all {
+	background: royalblue;
+	padding: 5px;
+	border: 2px solid black;
+	cursor: pointer;
+} */
+
+.todo__lvl, .todo__del-all {
+	width: 150px;
+	height: 40px;
+	border: 1px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5px;
+	background-color: rgb(24, 88, 208);
+	color: white;
+}
+
+
+
+
+
+
+

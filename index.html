@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<title>Todo List</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+</head>
+<body>
+
+	<section class="todo">
+		<div class="todo__block">
+			<h1 class="todo__title">TodoList</h1>
+			<form action="#" class="todo__form">
+				<input type="text" class="todo__field" placeholder="Add task">
+			
+				<p class="todo__error">Такая задача уже существует</p>
+				<button type="submit" class="todo__add">Add</button>
+			</form>
+
+
+			<ul class="todo__list"></ul>
+
+			<div class="todo__bot">
+				<div class="todo__lvl">
+					<span class="todo__lvl-done">1</span> of <span class="todo__lvl-all">3</span> tasks done
+				</div>
+				<button class="todo__del-all">Remove checked</button>
+			</div>
+		</div>
+	</section>
+
+
+	
+</body>
+</html>
